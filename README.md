@@ -1,16 +1,29 @@
-# liquid_glass_example
+# Liquid Glass Flutter Example
 
-A new Flutter project.
+A Flutter implementation of Apple's "Liquid Glass" design system using custom shaders.
+
+## About
+
+This project replicates the modern "Liquid Glass" design language introduced by Apple, characterized by Frosted glass-like translucent surfaces
+
+The implementation uses Flutter's shader capabilities to create these high-fidelity visual effects while maintaining performance across platforms.
+
+## Implementation Details
+
+The core of this implementation uses:
+
+- Flutter's `FragmentShader` API
+- Custom GLSL shader programs
+- Efficient rendering techniques
+- Composition of multiple visual layers
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest version recommended)
+- Basic understanding of shader programming (optional for customization)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## License
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is licensed under the MIT License - see the LICENSE file for details.
